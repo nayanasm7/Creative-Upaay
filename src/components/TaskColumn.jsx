@@ -1,6 +1,5 @@
 import React from 'react';
 import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd';
-//import { Droppable } from 'react-beautiful-dnd';
 import TaskCard from './TaskCard';
 
 export default function TaskColumn({ columnId, title, taskIds = [], tasksById, filters }) {

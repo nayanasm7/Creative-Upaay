@@ -8,7 +8,7 @@ const store = configureStore({
   reducer: {
     tasks: tasksReducer
   },
-  preloadedState: persisted // if undefined, RTK uses slice initial state
+  preloadedState: persisted 
 });
 
 // subscribe to save only tasks slice to avoid saving ephemeral ui state

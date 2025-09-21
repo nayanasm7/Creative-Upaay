@@ -1,6 +1,5 @@
 import React from 'react';
 import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd';
-//import { Draggable } from 'react-beautiful-dnd';
 import { useDispatch } from 'react-redux';
 import { deleteTask, updateTask } from '../features/tasksSlice';
 
